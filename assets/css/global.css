@@ -15669,7 +15669,8 @@ body.nice-scroll:not(.layout-boxed) {
 }
 .logo-overflow #Top_bar #logo img {
 	max-height: none;
-	z-index: 200
+	z-index: 200;
+	width: 170px;
 }
 .logo-overflow #Top_bar.is-sticky #logo {
 	height: auto!important

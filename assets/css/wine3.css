@@ -868,7 +868,7 @@
 	}
 	#Top_bar.is-sticky #logo img.logo-sticky {
 		display: inline;
-		max-height: 50px;
+	
 	}
 	#Top_bar.is-sticky .menu_wrapper {
 		clear: none
@@ -2299,17 +2299,17 @@ form input.display-none {
 .the-icons.span3 .i-name {
 	padding-left: 40px;
 }
-@media only screen and min-width: 768px and max-width: 959px {
+@media only screen and (min-width: 768px and max-width: 959px) {
 	.the-icons.span3 {
 		width: 33.333%;
 	}
 }
-@media only screen and min-width: 480px and max-width: 767px {
+@media only screen and (min-width: 480px and max-width: 767px) {
 	.the-icons.span3 {
 		width: 50%;
 	}
 }
-@media only screen and max-width: 479px {
+@media only screen and (max-width: 479px) {
 	.the-icons.span3 {
 		width: 100%;
 	}
