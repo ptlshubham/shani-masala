@@ -2116,7 +2116,7 @@ h6 {
 }
 @media only screen and (min-width: 1240px) {
 	.section_wrapper, .container {
-		max-width: 1060px;
+		max-width: 2000px;
 	}
 	.layout-boxed.header-boxed #Top_bar.is-sticky {
 		max-width: 1080px;
@@ -2299,12 +2299,12 @@ form input.display-none {
 .the-icons.span3 .i-name {
 	padding-left: 40px;
 }
-@media only screen and (min-width: 768px and max-width: 959px) {
+@media only screen and (min-width: 768px) and (max-width: 959px) {
 	.the-icons.span3 {
 		width: 33.333%;
 	}
 }
-@media only screen and (min-width: 480px and max-width: 767px) {
+@media only screen and (min-width: 480px) and (max-width: 767px) {
 	.the-icons.span3 {
 		width: 50%;
 	}

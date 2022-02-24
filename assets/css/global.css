@@ -478,6 +478,7 @@ a.button .button_label {
 	float: left;
 	position: relative;
 	z-index: 2;
+	background-color: rgb(224, 83, 83);
 }
 a.button .button_icon {
 	display: block;
@@ -16459,7 +16460,8 @@ body.mobile-side-slide {
 	border-radius: 0;
 	-webkit-box-shadow: inset 0 0 0 0;
 	box-shadow: inset 0 0 0 0;
-	-webkit-appearance: none
+	-webkit-appearance: none;
+	background-color: rgb(224, 83, 83);
 }
 .button-flat a.button .button_icon {
 	background: none

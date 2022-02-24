@@ -1238,7 +1238,7 @@ body.minimalist-header.header-below:not(.template-slider) #Header {
 	vertical-align: middle;
 	max-height: 100%;
 	max-height: 60px;
-    width: 150px;
+    width: 130px;
 }
 #Top_bar #logo img.logo-sticky {
 	display: none;
@@ -5206,6 +5206,9 @@ html, body {
 	#Wrapper {
 		width: 960px;
 	}
+	#Top_bar.is-sticky{
+		position: fixed;
+	}
 	.section_wrapper, .container, .with_aside .content_wrapper {
 		width: 940px;
 	}
@@ -5444,6 +5447,9 @@ html, body {
 	#Top_bar .top_bar_left {
 		width: 729px
 	}
+	#Top_bar.is-sticky{
+		position: fixed;
+	}
 	/* Blog | Columns | Grid, Masonry */
 	.posts_group.grid.col-5 .post-item, .posts_group.masonry.col-5 .post-item, .posts_group.grid.col-6 .post-item, .posts_group.masonry.col-6 .post-item {
 		width: 22.99%
@@ -5536,6 +5542,9 @@ html, body {
 	.hide-desktop {
 		display: none!important
 	}
+	#Top_bar.is-sticky{
+		position: fixed;
+	}
 }
 
 /* #Tablet (Landscape) 768 - 959 --------------------------------------------------------------- #Tablet (Landscape) 768 - 959 */
@@ -5543,6 +5552,9 @@ html, body {
 @media only screen and (min-width: 768px) and (max-width: 959px) {
 	body {
 		min-width: 0;
+	}
+	#Top_bar.is-sticky{
+		position: fixed;
 	}
 	.section_wrapper, .container, .with_aside .content_wrapper {
 		max-width: 708px;
@@ -5941,6 +5953,9 @@ html, body {
 		width: 100%;
 		margin: 0
 	}
+	#Top_bar.is-sticky{
+		position: fixed;
+	}
 	/* Transparent ---------- */
 	.tr-menu #Top_bar .wpml-languages a.active, .tr-menu #Top_bar .wpml-languages ul.wpml-lang-dropdown {
 		background-color: transparent
@@ -6022,6 +6037,9 @@ html, body {
 @media only screen and (max-width: 767px) {
 	body {
 		min-width: 0;
+	}
+	#Top_bar.is-sticky{
+		position: fixed;
 	}
 	.section_wrapper .mcb-wrap, .section_wrapper .column, .container .column, .sections_group, .four.columns {
 		margin: 0;
@@ -7373,6 +7391,9 @@ html, body {
 		margin-right: 0;
 		float: none
 	}
+	#Top_bar.is-sticky{
+		position: fixed;
+	}
 	#respond .comment-form-email {
 		width: 100%;
 		margin-right: 0;
@@ -7454,6 +7475,9 @@ html, body {
 @media only screen and (max-width: 479px) {
 	#Top_bar a.button.action_button {
 		margin-right: 0
+	}
+	#Top_bar.is-sticky{
+		position: fixed;
 	}
 	/* Post nav */
 	.post-nav {
