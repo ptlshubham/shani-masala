@@ -89,6 +89,7 @@
     }
   }
 
-  /* h5{
-    text-emphasis: bold;
-  } */
+  h5{
+    font-weight: bold;
+    color:#024126;
+  } 
