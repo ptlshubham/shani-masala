@@ -132,8 +132,9 @@ p a, p a:visited {
 ================================================== */
 
 img.scale-with-grid, #Content img {
-	max-width: 100%;
+	max-width: 60%;
 	height: auto;
+	margin-top: 10px;
 }
 .google-map img {
 	max-width: none !important;

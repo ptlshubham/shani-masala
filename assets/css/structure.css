@@ -3656,7 +3656,7 @@ body:not(.with_aside) .portfolio_group.list .portfolio-item .portfolio-item-fw-w
 }
 .footer-copy-center #Footer .footer_copy .copyright {
 	float: none;
-	margin: 0 0 10px 0;
+	margin: 0 0 0px 0;
 }
 .footer-copy-center #Footer .footer_copy a#back_to_top {
 	float: none;
