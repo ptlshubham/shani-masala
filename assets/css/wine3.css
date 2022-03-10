@@ -868,7 +868,7 @@
 	}
 	#Top_bar.is-sticky #logo img.logo-sticky {
 		display: inline;
-	
+		max-height: 35px;
 	}
 	#Top_bar.is-sticky .menu_wrapper {
 		clear: none
@@ -1868,8 +1868,6 @@ h6 {
 		line-height: 20px;
 		letter-spacing: 0px;
 	}
-	
-	
 	.big {
 		font-size: 13px;
 		line-height: 22px;
@@ -2118,7 +2116,7 @@ h6 {
 }
 @media only screen and (min-width: 1240px) {
 	.section_wrapper, .container {
-		max-width: 2000px;
+		max-width: 1060px;
 	}
 	.layout-boxed.header-boxed #Top_bar.is-sticky {
 		max-width: 1080px;
@@ -2187,7 +2185,7 @@ form input.display-none {
 	display: none !important
 }
 #Footer .widgets_wrapper {
-	padding: 30px 0 0px
+	padding: 30px 0 70px
 }
 /*
 |--------------------------------------------------------------------------
@@ -2301,17 +2299,17 @@ form input.display-none {
 .the-icons.span3 .i-name {
 	padding-left: 40px;
 }
-@media only screen and (min-width: 768px) and (max-width: 959px) {
+@media only screen and min-width: 768px and max-width: 959px {
 	.the-icons.span3 {
 		width: 33.333%;
 	}
 }
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+@media only screen and min-width: 480px and max-width: 767px {
 	.the-icons.span3 {
 		width: 50%;
 	}
 }
-@media only screen and (max-width: 479px) {
+@media only screen and max-width: 479px {
 	.the-icons.span3 {
 		width: 100%;
 	}
