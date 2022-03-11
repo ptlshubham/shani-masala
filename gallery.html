@@ -34,7 +34,31 @@
     <link rel='stylesheet' href='assets/css/wine3.css'>
     <link rel='stylesheet' href='assets/css/custom.css'>
     <!-- font-awesome -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        h5 {
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        [data-toggle="collapse"].collapsed .if-not-collapsed {
+            display: none;
+        }
+
+        [data-toggle="collapse"]:not(.collapsed) .if-collapsed {
+            display: none;
+        }
+        h3 {
+			font-size: 2.75rem;
+			line-height: 40px;
+			font-weight: 600;
+			letter-spacing: 0px;
+		}
+    </style>
 
 </head>
 
@@ -49,16 +73,17 @@
                         <div class="column one">
                             <div class="top_bar_left clearfix">
                                 <div class="logo">
-                                    <a id="logo" href="index.html" title="BeWine3 - Betheme" data-height="60"
+                                    <a id="logo" href="index.html" title="Shani Masala" data-height="60"
                                         data-padding="30"><img class="logo-main scale-with-grid"
-                                            src="assets/images/logo/wine3.png" data-retina="assets/images/logo/retina-wine3.png"
-                                            data-height="52"><img class="logo-sticky scale-with-grid"
-                                            src="assets/images/logo/wine3.png" data-retina="assets/images/logo/retina-wine3.png"
-                                            data-height="52"><img class="logo-mobile scale-with-grid"
-                                            src="assets/images/logo/wine3.png" data-retina="assets/images/logo/retina-wine3.png"
-                                            data-height="52"><img class="logo-mobile-sticky scale-with-grid"
-                                            src="assets/images/logo/wine3.png" data-retina="assets/images/logo/retina-wine3.png"
-                                            data-height="52"></a>
+                                            src="assets/images/logo/wine3.png"
+                                            data-retina="assets/images/logo/retina-wine3.png" data-height="52"><img
+                                            class="logo-sticky scale-with-grid" src="assets/images/logo/wine3.png"
+                                            data-retina="assets/images/logo/retina-wine3.png" data-height="52"><img
+                                            class="logo-mobile scale-with-grid" src="assets/images/logo/wine3.png"
+                                            data-retina="assets/images/logo/retina-wine3.png" data-height="52"><img
+                                            class="logo-mobile-sticky scale-with-grid"
+                                            src="assets/images/logo/wine3.png"
+                                            data-retina="assets/images/logo/retina-wine3.png" data-height="52"></a>
                                 </div>
                                 <div class="menu_wrapper">
                                     <nav id="menu">
@@ -82,7 +107,8 @@
                                         </ul>
                                         <ul id="menu-main-menu-right" class="menu menu-main menu_right">
                                             <li>
-                                                <a href="gallery.html"><span style="font-size:medium">PRODUCTS</span></a>
+                                                <a href="gallery.html"><span
+                                                        style="font-size:medium">PRODUCTS</span></a>
                                             </li>
                                             <!-- <li>
                                                 <a href="vineyards.html"><span>DEALERS</span></a>
@@ -241,8 +267,8 @@
                                     <div class="mcb-wrap-inner">
                                         <div class="column mcb-column one column_column">
                                             <div class="column_attr clearfix align_center">
-                                                <h6>HOW WE WORK</h6>
-                                                <h2>THE BEST INGREDIENTS</h2>
+                                                <!-- <h6>HOW WE WORK</h6> -->
+                                                <h2 style="font-size: 3rem;font-weight: bold;">THE BEST INGREDIENTS</h2>
                                             </div>
                                         </div>
                                     </div>
@@ -272,7 +298,8 @@
                                 <div class="wrap mcb-wrap one-fourth valign-top clearfix" style="padding:0 2%">
                                     <div class="mcb-wrap-inner">
                                         <div class="column mcb-column one column_image">
-                                            <div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
+                                            <div
+                                                class="image_frame image_item no_link scale-with-grid aligncenter no_border">
                                                 <div class="image_wrapper"><img class="scale-with-grid"
                                                         src="assets/images/product/02.png">
                                                 </div>
@@ -422,534 +449,544 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="wrap mcb-wrap one-fourth valign-top clearfix" style="padding:0 2%">
-                                    <div class="mcb-wrap-inner">
-                                        <div class="column mcb-column one column_image">
-                                            <div
-                                                class="image_frame image_item no_link scale-with-grid aligncenter no_border">
-                                                <div class="image_wrapper"><img class="scale-with-grid"
-                                                        src="assets/images/product/09.png">
+
+                                <div id="demo" class="collapse">
+                                    <div class="wrap mcb-wrap one-fourth valign-top clearfix" style="padding:0 2%">
+                                        <div class="mcb-wrap-inner">
+                                            <div class="column mcb-column one column_image">
+                                                <div
+                                                    class="image_frame image_item no_link scale-with-grid aligncenter no_border">
+                                                    <div class="image_wrapper"><img class="scale-with-grid"
+                                                            src="assets/images/product/09.png">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="column mcb-column one column_column">
+                                                <div class="column_attr clearfix align_center">
+                                                    <h5>CHICKEN AANGARA GRAVY</h5>
+                                                    <!--<p>
+                                                        Aliquam ac dui vel dui vulputate consectetur. Mauris accumsan, massa
+                                                        non.
+                                                    </p> -->
+
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="column mcb-column one column_column">
-                                            <div class="column_attr clearfix align_center">
-                                                <h5>CHICKEN AANGARA GRAVY</h5>
-                                                <!--<p>
-                                                    Aliquam ac dui vel dui vulputate consectetur. Mauris accumsan, massa
-                                                    non.
-                                                </p> -->
+                                    </div>
+                                    <div class="wrap mcb-wrap one-fourth valign-top clearfix" style="padding:0 2%">
+                                        <div class="mcb-wrap-inner">
+                                            <div class="column mcb-column one column_image">
+                                                <div
+                                                    class="image_frame image_item no_link scale-with-grid aligncenter no_border">
+                                                    <div class="image_wrapper"><img class="scale-with-grid"
+                                                            src="assets/images/product/10.png">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="column mcb-column one column_column">
+                                                <div class="column_attr clearfix align_center">
+                                                    <h5>RED GRAVY</h5>
+                                                    <!--<p>
+                                                        Aliquam ac dui vel dui vulputate consectetur. Mauris accumsan, massa
+                                                        non.
+                                                    </p> -->
 
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="wrap mcb-wrap one-fourth valign-top clearfix" style="padding:0 2%">
+                                        <div class="mcb-wrap-inner">
+                                            <div class="column mcb-column one column_image">
+                                                <div
+                                                    class="image_frame image_item no_link scale-with-grid aligncenter no_border">
+                                                    <div class="image_wrapper"><img class="scale-with-grid"
+                                                            src="assets/images/product/11.png">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="column mcb-column one column_column">
+                                                <div class="column_attr clearfix align_center">
+                                                    <h5>GREEN TIKKA</h5>
+                                                    <!--<p>
+                                                        Aliquam ac dui vel dui vulputate consectetur. Mauris accumsan, massa
+                                                        non.
+                                                    </p> -->
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="wrap mcb-wrap one-fourth valign-top clearfix" style="padding:0 2%">
+                                        <div class="mcb-wrap-inner">
+                                            <div class="column mcb-column one column_image">
+                                                <div
+                                                    class="image_frame image_item no_link scale-with-grid aligncenter no_border">
+                                                    <div class="image_wrapper"><img class="scale-with-grid"
+                                                            src="assets/images/product/12.png">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="column mcb-column one column_column">
+                                                <div class="column_attr clearfix align_center">
+                                                    <h5>SHAHI CHICKEN GRAVY</h5>
+                                                    <!--<p>
+                                                        Aliquam ac dui vel dui vulputate consectetur. Mauris accumsan, massa
+                                                        non.
+                                                    </p> -->
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="wrap mcb-wrap one-fourth valign-top clearfix" style="padding:0 2%">
+                                        <div class="mcb-wrap-inner">
+                                            <div class="column mcb-column one column_image">
+                                                <div
+                                                    class="image_frame image_item no_link scale-with-grid aligncenter no_border">
+                                                    <div class="image_wrapper"><img class="scale-with-grid"
+                                                            src="assets/images/product/13.png">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="column mcb-column one column_column">
+                                                <div class="column_attr clearfix align_center">
+                                                    <h5>LAHOORI GRAVY</h5>
+                                                    <!--<p>
+                                                        Aliquam ac dui vel dui vulputate consectetur. Mauris accumsan, massa
+                                                        non.
+                                                    </p> -->
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="wrap mcb-wrap one-fourth valign-top clearfix" style="padding:0 2%">
+                                        <div class="mcb-wrap-inner">
+                                            <div class="column mcb-column one column_image">
+                                                <div
+                                                    class="image_frame image_item no_link scale-with-grid aligncenter no_border">
+                                                    <div class="image_wrapper"><img class="scale-with-grid"
+                                                            src="assets/images/product/14.png">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="column mcb-column one column_column">
+                                                <div class="column_attr clearfix align_center">
+                                                    <h5>GOLDEN LEG</h5>
+                                                    <!--<p>
+                                                        Aliquam ac dui vel dui vulputate consectetur. Mauris accumsan, massa
+                                                        non.
+                                                    </p> -->
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="wrap mcb-wrap one-fourth valign-top clearfix" style="padding:0 2%">
+                                        <div class="mcb-wrap-inner">
+                                            <div class="column mcb-column one column_image">
+                                                <div
+                                                    class="image_frame image_item no_link scale-with-grid aligncenter no_border">
+                                                    <div class="image_wrapper"><img class="scale-with-grid"
+                                                            src="assets/images/product/15.png">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="column mcb-column one column_column">
+                                                <div class="column_attr clearfix align_center">
+                                                    <h5>GREEL FISH MASALA</h5>
+                                                    <!--<p>
+                                                        Aliquam ac dui vel dui vulputate consectetur. Mauris accumsan, massa
+                                                        non.
+                                                    </p> -->
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="wrap mcb-wrap one-fourth valign-top clearfix" style="padding:0 2%">
+                                        <div class="mcb-wrap-inner">
+                                            <div class="column mcb-column one column_image">
+                                                <div
+                                                    class="image_frame image_item no_link scale-with-grid aligncenter no_border">
+                                                    <div class="image_wrapper"><img class="scale-with-grid"
+                                                            src="assets/images/product/16.png">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="column mcb-column one column_column">
+                                                <div class="column_attr clearfix align_center">
+                                                    <h5>HYDERABADI GRAVY</h5>
+                                                    <!--<p>
+                                                        Aliquam ac dui vel dui vulputate consectetur. Mauris accumsan, massa
+                                                        non.
+                                                    </p> -->
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="wrap mcb-wrap one-fourth valign-top clearfix" style="padding:0 2%">
+                                        <div class="mcb-wrap-inner">
+                                            <div class="column mcb-column one column_image">
+                                                <div
+                                                    class="image_frame image_item no_link scale-with-grid aligncenter no_border">
+                                                    <div class="image_wrapper"><img class="scale-with-grid"
+                                                            src="assets/images/product/17.png">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="column mcb-column one column_column">
+                                                <div class="column_attr clearfix align_center">
+                                                    <h5>TANDOORI</h5>
+                                                    <!--<p>
+                                                        Aliquam ac dui vel dui vulputate consectetur. Mauris accumsan, massa
+                                                        non.
+                                                    </p> -->
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="wrap mcb-wrap one-fourth valign-top clearfix" style="padding:0 2%">
+                                        <div class="mcb-wrap-inner">
+                                            <div class="column mcb-column one column_image">
+                                                <div
+                                                    class="image_frame image_item no_link scale-with-grid aligncenter no_border">
+                                                    <div class="image_wrapper"><img class="scale-with-grid"
+                                                            src="assets/images/product/18.png">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="column mcb-column one column_column">
+                                                <div class="column_attr clearfix align_center">
+                                                    <h5>TANDOOR FISH MASALA</h5>
+                                                    <!--<p>
+                                                        Aliquam ac dui vel dui vulputate consectetur. Mauris accumsan, massa
+                                                        non.
+                                                    </p> -->
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="wrap mcb-wrap one-fourth valign-top clearfix" style="padding:0 2%">
+                                        <div class="mcb-wrap-inner">
+                                            <div class="column mcb-column one column_image">
+                                                <div
+                                                    class="image_frame image_item no_link scale-with-grid aligncenter no_border">
+                                                    <div class="image_wrapper"><img class="scale-with-grid"
+                                                            src="assets/images/product/19.png">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="column mcb-column one column_column">
+                                                <div class="column_attr clearfix align_center">
+                                                    <h5>CHICKEN 65</h5>
+                                                    <!--<p>
+                                                        Aliquam ac dui vel dui vulputate consectetur. Mauris accumsan, massa
+                                                        non.
+                                                    </p> -->
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="wrap mcb-wrap one-fourth valign-top clearfix" style="padding:0 2%">
+                                        <div class="mcb-wrap-inner">
+                                            <div class="column mcb-column one column_image">
+                                                <div
+                                                    class="image_frame image_item no_link scale-with-grid aligncenter no_border">
+                                                    <div class="image_wrapper"><img class="scale-with-grid"
+                                                            src="assets/images/product/20.png">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="column mcb-column one column_column">
+                                                <div class="column_attr clearfix align_center">
+                                                    <h5>CHICKEN KARAHI</h5>
+                                                    <!--<p>
+                                                        Aliquam ac dui vel dui vulputate consectetur. Mauris accumsan, massa
+                                                        non.
+                                                    </p> -->
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="wrap mcb-wrap one-fourth valign-top clearfix" style="padding:0 2%">
+                                        <div class="mcb-wrap-inner">
+                                            <div class="column mcb-column one column_image">
+                                                <div
+                                                    class="image_frame image_item no_link scale-with-grid aligncenter no_border">
+                                                    <div class="image_wrapper"><img class="scale-with-grid"
+                                                            src="assets/images/product/21.png">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="column mcb-column one column_column">
+                                                <div class="column_attr clearfix align_center">
+                                                    <h5>DANA CHICKEN</h5>
+                                                    <!--<p>
+                                                        Aliquam ac dui vel dui vulputate consectetur. Mauris accumsan, massa
+                                                        non.
+                                                    </p> -->
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="wrap mcb-wrap one-fourth valign-top clearfix" style="padding:0 2%">
+                                        <div class="mcb-wrap-inner">
+                                            <div class="column mcb-column one column_image">
+                                                <div
+                                                    class="image_frame image_item no_link scale-with-grid aligncenter no_border">
+                                                    <div class="image_wrapper"><img class="scale-with-grid"
+                                                            src="assets/images/product/22.png">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="column mcb-column one column_column">
+                                                <div class="column_attr clearfix align_center">
+                                                    <h5>FISH CURRY</h5>
+                                                    <!--<p>
+                                                        Aliquam ac dui vel dui vulputate consectetur. Mauris accumsan, massa
+                                                        non.
+                                                    </p> -->
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="wrap mcb-wrap one-fourth valign-top clearfix" style="padding:0 2%">
+                                        <div class="mcb-wrap-inner">
+                                            <div class="column mcb-column one column_image">
+                                                <div
+                                                    class="image_frame image_item no_link scale-with-grid aligncenter no_border">
+                                                    <div class="image_wrapper"><img class="scale-with-grid"
+                                                            src="assets/images/product/23.png">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="column mcb-column one column_column">
+                                                <div class="column_attr clearfix align_center">
+                                                    <h5>MEAT MASALA</h5>
+                                                    <!--<p>
+                                                        Aliquam ac dui vel dui vulputate consectetur. Mauris accumsan, massa
+                                                        non.
+                                                    </p> -->
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="wrap mcb-wrap one-fourth valign-top clearfix" style="padding:0 2%">
+                                        <div class="mcb-wrap-inner">
+                                            <div class="column mcb-column one column_image">
+                                                <div
+                                                    class="image_frame image_item no_link scale-with-grid aligncenter no_border">
+                                                    <div class="image_wrapper"><img class="scale-with-grid"
+                                                            src="assets/images/product/24.png">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="column mcb-column one column_column">
+                                                <div class="column_attr clearfix align_center">
+                                                    <h5>EGG CURRY</h5>
+                                                    <!--<p>
+                                                        Aliquam ac dui vel dui vulputate consectetur. Mauris accumsan, massa
+                                                        non.
+                                                    </p> -->
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="wrap mcb-wrap one-fourth valign-top clearfix" style="padding:0 2%">
+                                        <div class="mcb-wrap-inner">
+                                            <div class="column mcb-column one column_image">
+                                                <div
+                                                    class="image_frame image_item no_link scale-with-grid aligncenter no_border">
+                                                    <div class="image_wrapper"><img class="scale-with-grid"
+                                                            src="assets/images/product/25.png">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="column mcb-column one column_column">
+                                                <div class="column_attr clearfix align_center">
+                                                    <h5>SILVER CHICKEN MASALA</h5>
+                                                    <!--<p>
+                                                        Aliquam ac dui vel dui vulputate consectetur. Mauris accumsan, massa
+                                                        non.
+                                                    </p> -->
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="wrap mcb-wrap one-fourth valign-top clearfix" style="padding:0 2%">
+                                        <div class="mcb-wrap-inner">
+                                            <div class="column mcb-column one column_image">
+                                                <div
+                                                    class="image_frame image_item no_link scale-with-grid aligncenter no_border">
+                                                    <div class="image_wrapper"><img class="scale-with-grid"
+                                                            src="assets/images/product/26.png">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="column mcb-column one column_column">
+                                                <div class="column_attr clearfix align_center">
+                                                    <h5>CHICKEN PERI-PERI</h5>
+                                                    <!--<p>
+                                                        Aliquam ac dui vel dui vulputate consectetur. Mauris accumsan, massa
+                                                        non.
+                                                    </p> -->
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="wrap mcb-wrap one-fourth valign-top clearfix" style="padding:0 2%">
+                                        <div class="mcb-wrap-inner">
+                                            <div class="column mcb-column one column_image">
+                                                <div
+                                                    class="image_frame image_item no_link scale-with-grid aligncenter no_border">
+                                                    <div class="image_wrapper"><img class="scale-with-grid"
+                                                            src="assets/images/product/27.png">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="column mcb-column one column_column">
+                                                <div class="column_attr clearfix align_center">
+                                                    <h5>CHAT PATA RED AALOO</h5>
+                                                    <!--<p>
+                                                        Aliquam ac dui vel dui vulputate consectetur. Mauris accumsan, massa
+                                                        non.
+                                                    </p> -->
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="wrap mcb-wrap one-fourth valign-top clearfix" style="padding:0 2%">
+                                        <div class="mcb-wrap-inner">
+                                            <div class="column mcb-column one column_image">
+                                                <div
+                                                    class="image_frame image_item no_link scale-with-grid aligncenter no_border">
+                                                    <div class="image_wrapper"><img class="scale-with-grid"
+                                                            src="assets/images/product/28.png">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="column mcb-column one column_column">
+                                                <div class="column_attr clearfix align_center">
+                                                    <h5>SEEKH KABAB</h5>
+                                                    <!--<p>
+                                                        Aliquam ac dui vel dui vulputate consectetur. Mauris accumsan, massa
+                                                        non.
+                                                    </p> -->
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="wrap mcb-wrap one-fourth valign-top clearfix" style="padding:0 2%">
+                                        <div class="mcb-wrap-inner">
+                                            <div class="column mcb-column one column_image">
+                                                <div
+                                                    class="image_frame image_item no_link scale-with-grid aligncenter no_border">
+                                                    <div class="image_wrapper"><img class="scale-with-grid"
+                                                            src="assets/images/product/29.png">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="column mcb-column one column_column">
+                                                <div class="column_attr clearfix align_center">
+                                                    <h5>CHICKEN ROSE GARDEN</h5>
+                                                    <!--<p>
+                                                        Aliquam ac dui vel dui vulputate consectetur. Mauris accumsan, massa
+                                                        non.
+                                                    </p> -->
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="wrap mcb-wrap one-fourth valign-top clearfix" style="padding:0 2%">
+                                        <div class="mcb-wrap-inner">
+                                            <div class="column mcb-column one column_image">
+                                                <div
+                                                    class="image_frame image_item no_link scale-with-grid aligncenter no_border">
+                                                    <div class="image_wrapper"><img class="scale-with-grid"
+                                                            src="assets/images/product/30.png">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="column mcb-column one column_column">
+                                                <div class="column_attr clearfix align_center">
+                                                    <h5>KEEMA MASALA</h5>
+                                                    <!--<p>
+                                                        Aliquam ac dui vel dui vulputate consectetur. Mauris accumsan, massa
+                                                        non.
+                                                    </p> -->
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="wrap mcb-wrap one-fourth valign-top clearfix" style="padding:0 2%">
+                                        <div class="mcb-wrap-inner">
+                                            <div class="column mcb-column one column_image">
+                                                <div
+                                                    class="image_frame image_item no_link scale-with-grid aligncenter no_border">
+                                                    <div class="image_wrapper"><img class="scale-with-grid"
+                                                            src="assets/images/product/31.png">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="column mcb-column one column_column">
+                                                <div class="column_attr clearfix align_center">
+                                                    <h5>DAL GOSHT</h5>
+                                                    <!--<p>
+                                                        Aliquam ac dui vel dui vulputate consectetur. Mauris accumsan, massa
+                                                        non.
+                                                    </p> -->
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="wrap mcb-wrap one-fourth valign-top clearfix" style="padding:0 2%">
+                                        <div class="mcb-wrap-inner">
+                                            <div class="column mcb-column one column_image">
+                                                <div
+                                                    class="image_frame image_item no_link scale-with-grid aligncenter no_border">
+                                                    <div class="image_wrapper"><img class="scale-with-grid"
+                                                            src="assets/images/product/32.png">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="column mcb-column one column_column">
+                                                <div class="column_attr clearfix align_center">
+                                                    <h5>KHICHDA MASALA</h5>
+                                                    <!--<p>
+                                                        Aliquam ac dui vel dui vulputate consectetur. Mauris accumsan, massa
+                                                        non.
+                                                    </p> -->
+
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="wrap mcb-wrap one-fourth valign-top clearfix" style="padding:0 2%">
-                                    <div class="mcb-wrap-inner">
-                                        <div class="column mcb-column one column_image">
-                                            <div
-                                                class="image_frame image_item no_link scale-with-grid aligncenter no_border">
-                                                <div class="image_wrapper"><img class="scale-with-grid"
-                                                        src="assets/images/product/10.png">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="column mcb-column one column_column">
-                                            <div class="column_attr clearfix align_center">
-                                                <h5>RED GRAVY</h5>
-                                                <!--<p>
-                                                    Aliquam ac dui vel dui vulputate consectetur. Mauris accumsan, massa
-                                                    non.
-                                                </p> -->
-
-                                            </div>
-                                        </div>
-                                    </div>
+                                <div class="button_align align_center collapsed" data-toggle="collapse"  data-target="#demo">
+                                    <a class="button button_size_2 button_theme button_js"><span
+                                            class="button_label if-collapsed">MORE PRODUCTS</span>
+                                        <span class="button_label if-not-collapsed">LESS PRODUCTS</span>
+                                    </a>
                                 </div>
-                                <div class="wrap mcb-wrap one-fourth valign-top clearfix" style="padding:0 2%">
-                                    <div class="mcb-wrap-inner">
-                                        <div class="column mcb-column one column_image">
-                                            <div
-                                                class="image_frame image_item no_link scale-with-grid aligncenter no_border">
-                                                <div class="image_wrapper"><img class="scale-with-grid"
-                                                        src="assets/images/product/11.png">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="column mcb-column one column_column">
-                                            <div class="column_attr clearfix align_center">
-                                                <h5>GREEN TIKKA</h5>
-                                                <!--<p>
-                                                    Aliquam ac dui vel dui vulputate consectetur. Mauris accumsan, massa
-                                                    non.
-                                                </p> -->
 
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="wrap mcb-wrap one-fourth valign-top clearfix" style="padding:0 2%">
-                                    <div class="mcb-wrap-inner">
-                                        <div class="column mcb-column one column_image">
-                                            <div
-                                                class="image_frame image_item no_link scale-with-grid aligncenter no_border">
-                                                <div class="image_wrapper"><img class="scale-with-grid"
-                                                        src="assets/images/product/12.png">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="column mcb-column one column_column">
-                                            <div class="column_attr clearfix align_center">
-                                                <h5>SHAHI CHICKEN GRAVY</h5>
-                                                <!--<p>
-                                                    Aliquam ac dui vel dui vulputate consectetur. Mauris accumsan, massa
-                                                    non.
-                                                </p> -->
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="wrap mcb-wrap one-fourth valign-top clearfix" style="padding:0 2%">
-                                    <div class="mcb-wrap-inner">
-                                        <div class="column mcb-column one column_image">
-                                            <div
-                                                class="image_frame image_item no_link scale-with-grid aligncenter no_border">
-                                                <div class="image_wrapper"><img class="scale-with-grid"
-                                                        src="assets/images/product/13.png">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="column mcb-column one column_column">
-                                            <div class="column_attr clearfix align_center">
-                                                <h5>LAHOORI GRAVY</h5>
-                                                <!--<p>
-                                                    Aliquam ac dui vel dui vulputate consectetur. Mauris accumsan, massa
-                                                    non.
-                                                </p> -->
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="wrap mcb-wrap one-fourth valign-top clearfix" style="padding:0 2%">
-                                    <div class="mcb-wrap-inner">
-                                        <div class="column mcb-column one column_image">
-                                            <div
-                                                class="image_frame image_item no_link scale-with-grid aligncenter no_border">
-                                                <div class="image_wrapper"><img class="scale-with-grid"
-                                                        src="assets/images/product/14.png">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="column mcb-column one column_column">
-                                            <div class="column_attr clearfix align_center">
-                                                <h5>GOLDEN LEG</h5>
-                                                <!--<p>
-                                                    Aliquam ac dui vel dui vulputate consectetur. Mauris accumsan, massa
-                                                    non.
-                                                </p> -->
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="wrap mcb-wrap one-fourth valign-top clearfix" style="padding:0 2%">
-                                    <div class="mcb-wrap-inner">
-                                        <div class="column mcb-column one column_image">
-                                            <div
-                                                class="image_frame image_item no_link scale-with-grid aligncenter no_border">
-                                                <div class="image_wrapper"><img class="scale-with-grid"
-                                                        src="assets/images/product/15.png">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="column mcb-column one column_column">
-                                            <div class="column_attr clearfix align_center">
-                                                <h5>GREEL FISH MASALA</h5>
-                                                <!--<p>
-                                                    Aliquam ac dui vel dui vulputate consectetur. Mauris accumsan, massa
-                                                    non.
-                                                </p> -->
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="wrap mcb-wrap one-fourth valign-top clearfix" style="padding:0 2%">
-                                    <div class="mcb-wrap-inner">
-                                        <div class="column mcb-column one column_image">
-                                            <div
-                                                class="image_frame image_item no_link scale-with-grid aligncenter no_border">
-                                                <div class="image_wrapper"><img class="scale-with-grid"
-                                                        src="assets/images/product/16.png">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="column mcb-column one column_column">
-                                            <div class="column_attr clearfix align_center">
-                                                <h5>HYDERABADI GRAVY</h5>
-                                                <!--<p>
-                                                    Aliquam ac dui vel dui vulputate consectetur. Mauris accumsan, massa
-                                                    non.
-                                                </p> -->
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="wrap mcb-wrap one-fourth valign-top clearfix" style="padding:0 2%">
-                                    <div class="mcb-wrap-inner">
-                                        <div class="column mcb-column one column_image">
-                                            <div
-                                                class="image_frame image_item no_link scale-with-grid aligncenter no_border">
-                                                <div class="image_wrapper"><img class="scale-with-grid"
-                                                        src="assets/images/product/17.png">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="column mcb-column one column_column">
-                                            <div class="column_attr clearfix align_center">
-                                                <h5>TANDOORI</h5>
-                                                <!--<p>
-                                                    Aliquam ac dui vel dui vulputate consectetur. Mauris accumsan, massa
-                                                    non.
-                                                </p> -->
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="wrap mcb-wrap one-fourth valign-top clearfix" style="padding:0 2%">
-                                    <div class="mcb-wrap-inner">
-                                        <div class="column mcb-column one column_image">
-                                            <div
-                                                class="image_frame image_item no_link scale-with-grid aligncenter no_border">
-                                                <div class="image_wrapper"><img class="scale-with-grid"
-                                                        src="assets/images/product/18.png">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="column mcb-column one column_column">
-                                            <div class="column_attr clearfix align_center">
-                                                <h5>TANDOOR FISH MASALA</h5>
-                                                <!--<p>
-                                                    Aliquam ac dui vel dui vulputate consectetur. Mauris accumsan, massa
-                                                    non.
-                                                </p> -->
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="wrap mcb-wrap one-fourth valign-top clearfix" style="padding:0 2%">
-                                    <div class="mcb-wrap-inner">
-                                        <div class="column mcb-column one column_image">
-                                            <div
-                                                class="image_frame image_item no_link scale-with-grid aligncenter no_border">
-                                                <div class="image_wrapper"><img class="scale-with-grid"
-                                                        src="assets/images/product/19.png">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="column mcb-column one column_column">
-                                            <div class="column_attr clearfix align_center">
-                                                <h5>CHICKEN 65</h5>
-                                                <!--<p>
-                                                    Aliquam ac dui vel dui vulputate consectetur. Mauris accumsan, massa
-                                                    non.
-                                                </p> -->
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="wrap mcb-wrap one-fourth valign-top clearfix" style="padding:0 2%">
-                                    <div class="mcb-wrap-inner">
-                                        <div class="column mcb-column one column_image">
-                                            <div
-                                                class="image_frame image_item no_link scale-with-grid aligncenter no_border">
-                                                <div class="image_wrapper"><img class="scale-with-grid"
-                                                        src="assets/images/product/20.png">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="column mcb-column one column_column">
-                                            <div class="column_attr clearfix align_center">
-                                                <h5>CHICKEN KARAHI</h5>
-                                                <!--<p>
-                                                    Aliquam ac dui vel dui vulputate consectetur. Mauris accumsan, massa
-                                                    non.
-                                                </p> -->
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="wrap mcb-wrap one-fourth valign-top clearfix" style="padding:0 2%">
-                                    <div class="mcb-wrap-inner">
-                                        <div class="column mcb-column one column_image">
-                                            <div
-                                                class="image_frame image_item no_link scale-with-grid aligncenter no_border">
-                                                <div class="image_wrapper"><img class="scale-with-grid"
-                                                        src="assets/images/product/21.png">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="column mcb-column one column_column">
-                                            <div class="column_attr clearfix align_center">
-                                                <h5>DANA CHICKEN</h5>
-                                                <!--<p>
-                                                    Aliquam ac dui vel dui vulputate consectetur. Mauris accumsan, massa
-                                                    non.
-                                                </p> -->
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="wrap mcb-wrap one-fourth valign-top clearfix" style="padding:0 2%">
-                                    <div class="mcb-wrap-inner">
-                                        <div class="column mcb-column one column_image">
-                                            <div
-                                                class="image_frame image_item no_link scale-with-grid aligncenter no_border">
-                                                <div class="image_wrapper"><img class="scale-with-grid"
-                                                        src="assets/images/product/22.png">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="column mcb-column one column_column">
-                                            <div class="column_attr clearfix align_center">
-                                                <h5>FISH CURRY</h5>
-                                                <!--<p>
-                                                    Aliquam ac dui vel dui vulputate consectetur. Mauris accumsan, massa
-                                                    non.
-                                                </p> -->
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="wrap mcb-wrap one-fourth valign-top clearfix" style="padding:0 2%">
-                                    <div class="mcb-wrap-inner">
-                                        <div class="column mcb-column one column_image">
-                                            <div
-                                                class="image_frame image_item no_link scale-with-grid aligncenter no_border">
-                                                <div class="image_wrapper"><img class="scale-with-grid"
-                                                        src="assets/images/product/23.png">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="column mcb-column one column_column">
-                                            <div class="column_attr clearfix align_center">
-                                                <h5>MEAT MASALA</h5>
-                                                <!--<p>
-                                                    Aliquam ac dui vel dui vulputate consectetur. Mauris accumsan, massa
-                                                    non.
-                                                </p> -->
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="wrap mcb-wrap one-fourth valign-top clearfix" style="padding:0 2%">
-                                    <div class="mcb-wrap-inner">
-                                        <div class="column mcb-column one column_image">
-                                            <div
-                                                class="image_frame image_item no_link scale-with-grid aligncenter no_border">
-                                                <div class="image_wrapper"><img class="scale-with-grid"
-                                                        src="assets/images/product/24.png">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="column mcb-column one column_column">
-                                            <div class="column_attr clearfix align_center">
-                                                <h5>EGG CURRY</h5>
-                                                <!--<p>
-                                                    Aliquam ac dui vel dui vulputate consectetur. Mauris accumsan, massa
-                                                    non.
-                                                </p> -->
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="wrap mcb-wrap one-fourth valign-top clearfix" style="padding:0 2%">
-                                    <div class="mcb-wrap-inner">
-                                        <div class="column mcb-column one column_image">
-                                            <div
-                                                class="image_frame image_item no_link scale-with-grid aligncenter no_border">
-                                                <div class="image_wrapper"><img class="scale-with-grid"
-                                                        src="assets/images/product/25.png">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="column mcb-column one column_column">
-                                            <div class="column_attr clearfix align_center">
-                                                <h5>SILVER CHICKEN MASALA</h5>
-                                                <!--<p>
-                                                    Aliquam ac dui vel dui vulputate consectetur. Mauris accumsan, massa
-                                                    non.
-                                                </p> -->
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="wrap mcb-wrap one-fourth valign-top clearfix" style="padding:0 2%">
-                                    <div class="mcb-wrap-inner">
-                                        <div class="column mcb-column one column_image">
-                                            <div
-                                                class="image_frame image_item no_link scale-with-grid aligncenter no_border">
-                                                <div class="image_wrapper"><img class="scale-with-grid"
-                                                        src="assets/images/product/26.png">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="column mcb-column one column_column">
-                                            <div class="column_attr clearfix align_center">
-                                                <h5>CHICKEN PERI-PERI</h5>
-                                                <!--<p>
-                                                    Aliquam ac dui vel dui vulputate consectetur. Mauris accumsan, massa
-                                                    non.
-                                                </p> -->
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="wrap mcb-wrap one-fourth valign-top clearfix" style="padding:0 2%">
-                                    <div class="mcb-wrap-inner">
-                                        <div class="column mcb-column one column_image">
-                                            <div
-                                                class="image_frame image_item no_link scale-with-grid aligncenter no_border">
-                                                <div class="image_wrapper"><img class="scale-with-grid"
-                                                        src="assets/images/product/27.png">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="column mcb-column one column_column">
-                                            <div class="column_attr clearfix align_center">
-                                                <h5>CHAT PATA RED AALOO</h5>
-                                                <!--<p>
-                                                    Aliquam ac dui vel dui vulputate consectetur. Mauris accumsan, massa
-                                                    non.
-                                                </p> -->
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="wrap mcb-wrap one-fourth valign-top clearfix" style="padding:0 2%">
-                                    <div class="mcb-wrap-inner">
-                                        <div class="column mcb-column one column_image">
-                                            <div
-                                                class="image_frame image_item no_link scale-with-grid aligncenter no_border">
-                                                <div class="image_wrapper"><img class="scale-with-grid"
-                                                        src="assets/images/product/28.png">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="column mcb-column one column_column">
-                                            <div class="column_attr clearfix align_center">
-                                                <h5>SEEKH KABAB</h5>
-                                                <!--<p>
-                                                    Aliquam ac dui vel dui vulputate consectetur. Mauris accumsan, massa
-                                                    non.
-                                                </p> -->
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="wrap mcb-wrap one-fourth valign-top clearfix" style="padding:0 2%">
-                                    <div class="mcb-wrap-inner">
-                                        <div class="column mcb-column one column_image">
-                                            <div
-                                                class="image_frame image_item no_link scale-with-grid aligncenter no_border">
-                                                <div class="image_wrapper"><img class="scale-with-grid"
-                                                        src="assets/images/product/29.png">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="column mcb-column one column_column">
-                                            <div class="column_attr clearfix align_center">
-                                                <h5>CHICKEN ROSE GARDEN</h5>
-                                                <!--<p>
-                                                    Aliquam ac dui vel dui vulputate consectetur. Mauris accumsan, massa
-                                                    non.
-                                                </p> -->
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="wrap mcb-wrap one-fourth valign-top clearfix" style="padding:0 2%">
-                                    <div class="mcb-wrap-inner">
-                                        <div class="column mcb-column one column_image">
-                                            <div
-                                                class="image_frame image_item no_link scale-with-grid aligncenter no_border">
-                                                <div class="image_wrapper"><img class="scale-with-grid"
-                                                        src="assets/images/product/30.png">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="column mcb-column one column_column">
-                                            <div class="column_attr clearfix align_center">
-                                                <h5>KEEMA MASALA</h5>
-                                                <!--<p>
-                                                    Aliquam ac dui vel dui vulputate consectetur. Mauris accumsan, massa
-                                                    non.
-                                                </p> -->
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="wrap mcb-wrap one-fourth valign-top clearfix" style="padding:0 2%">
-                                    <div class="mcb-wrap-inner">
-                                        <div class="column mcb-column one column_image">
-                                            <div
-                                                class="image_frame image_item no_link scale-with-grid aligncenter no_border">
-                                                <div class="image_wrapper"><img class="scale-with-grid"
-                                                        src="assets/images/product/31.png">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="column mcb-column one column_column">
-                                            <div class="column_attr clearfix align_center">
-                                                <h5>DAL GOSHT</h5>
-                                                <!--<p>
-                                                    Aliquam ac dui vel dui vulputate consectetur. Mauris accumsan, massa
-                                                    non.
-                                                </p> -->
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="wrap mcb-wrap one-fourth valign-top clearfix" style="padding:0 2%">
-                                    <div class="mcb-wrap-inner">
-                                        <div class="column mcb-column one column_image">
-                                            <div
-                                                class="image_frame image_item no_link scale-with-grid aligncenter no_border">
-                                                <div class="image_wrapper"><img class="scale-with-grid"
-                                                        src="assets/images/product/32.png">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="column mcb-column one column_column">
-                                            <div class="column_attr clearfix align_center">
-                                                <h5>KHICHDA MASALA</h5>
-                                                <!--<p>
-                                                    Aliquam ac dui vel dui vulputate consectetur. Mauris accumsan, massa
-                                                    non.
-                                                </p> -->
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
 
                                 <!--<div class="wrap mcb-wrap one valign-top clearfix">
                                     <div class="mcb-wrap-inner">
@@ -1026,62 +1063,63 @@
                             </div>
                         </div>
                         <div class="section mcb-section"
-							style="padding-top:30px;background-image:url(assets/images/wine3-sectionbg1.png);background-repeat:no-repeat;background-position:center top">
-							<div class="section_wrapper mcb-section-inner">
-								<div class="wrap mcb-wrap one-fifth valign-top move-up clearfix"
-									style="margin-top:-100px" data-mobile="no-up">
-									<div class="mcb-wrap-inner">
-										<div class="column mcb-column one column_image">
-											<div
-												class="image_frame image_item no_link scale-with-grid aligncenter no_border">
-												<div class="image_wrapper"><img class="scale-with-grid"
-														src="assets/images/product/01.png">
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="wrap mcb-wrap  three-fifth valign-top clearfix">
-									<div class="mcb-wrap-inner">
-										<div class="column mcb-column one column_column">
-											<div class="column_attr clearfix align_center">
-												<!-- <h4>ABOUT US</h4> -->
-												<!-- <h2>THE CLUB FOR <span style="color: #80a093;">CONNOISSEURS</span></h2>
+                            style="padding-top:30px;background-image:url(assets/images/wine3-sectionbg1.png);background-repeat:no-repeat;background-position:center top">
+                            <div class="section_wrapper mcb-section-inner">
+                                <div class="wrap mcb-wrap one-fifth valign-top move-up clearfix"
+                                    style="margin-top:-100px" data-mobile="no-up">
+                                    <div class="mcb-wrap-inner">
+                                        <div class="column mcb-column one column_image">
+                                            <div
+                                                class="image_frame image_item no_link scale-with-grid aligncenter no_border">
+                                                <div class="image_wrapper"><img class="scale-with-grid"
+                                                        src="assets/images/product/01.png">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="wrap mcb-wrap  three-fifth valign-top clearfix">
+                                    <div class="mcb-wrap-inner">
+                                        <div class="column mcb-column one column_column">
+                                            <div class="column_attr clearfix align_center">
+                                                <!-- <h4>ABOUT US</h4> -->
+                                                <!-- <h2>THE CLUB FOR <span style="color: #80a093;">CONNOISSEURS</span></h2>
 												<hr class="no_line" style="margin:0 auto 10px"> -->
-												<p style="font-weight: bold; text-align: center; font-size:larger;color:black;">
-													AS FOR OUR SAYING "HAMARA MASALA HAMARI PEHCHAN",<br> WE WILL LEAVE
-													AN
-													IMPRESSION ON YOUR TASTE.
-												</p>
-												<hr  style="margin:0 auto 20px">
-												<!-- <a class="button button_size_2 button_theme button_js"
+                                                <p
+                                                    style="font-weight: bold; text-align: center; font-size:large;color:black;">
+                                                    AS FOR OUR SAYING "HAMARA MASALA HAMARI PEHCHAN",<br> WE WILL LEAVE
+                                                    AN
+                                                    IMPRESSION ON YOUR TASTE.
+                                                </p>
+                                                <hr style="margin:0 auto 20px">
+                                                <!-- <a class="button button_size_2 button_theme button_js"
 													href="about.html"><span class="button_label">ABOUT US</span></a> -->
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="wrap mcb-wrap one-fifth valign-top move-up clearfix"
-									style="margin-top:-100px" data-mobile="no-up">
-									<div class="mcb-wrap-inner">
-										<div class="column mcb-column one column_image">
-											<div
-												class="image_frame image_item no_link scale-with-grid aligncenter no_border">
-												<div class="image_wrapper"><img class="scale-with-grid"
-														src="assets/images/product/02.png">
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="wrap mcb-wrap one-fifth valign-top move-up clearfix"
+                                    style="margin-top:-100px" data-mobile="no-up">
+                                    <div class="mcb-wrap-inner">
+                                        <div class="column mcb-column one column_image">
+                                            <div
+                                                class="image_frame image_item no_link scale-with-grid aligncenter no_border">
+                                                <div class="image_wrapper"><img class="scale-with-grid"
+                                                        src="assets/images/product/02.png">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
                     </div>
                 </div>
             </div>
         </div>
         <footer id="Footer" class="clearfix">
-			<div class="widgets_wrapper">
+			<div class="widgets_wrapper ">
 				<div class="container">
 					<div class="column one-fourth">
 						<aside class="widget_text widget widget_custom_html">
@@ -1093,8 +1131,8 @@
 								</div> -->
 								<h3>OUR BRAND</h3>
 								<hr class="no_line" style="margin:0 auto 0px">
-								<p>
-									<b>"Hamara Masala Hamari Pehchan"</b> 
+								<p style="font-size:15px">
+									<b>"Hamara Masala Hamari Pehchan"</b>
 								</p>
 								<p style="font-size: 25px;">
 									<a href="https://www.facebook.com/shanimasala" target="_blank"
@@ -1141,7 +1179,6 @@
 									</p>
 								</b>
 
-
 							</div>
 						</aside>
 					</div>
@@ -1161,10 +1198,14 @@
 									</p> -->
 								<h3>E-MAIL</h3>
 								<a href="mailto:shanimasala72@gmail.com ">
-									<b><p style="color: #80a093;">shanimasala72@gmail.com </p></b>
+									<b>
+										<p style="color: #80a093;">shanimasala72@gmail.com </p>
+									</b>
 								</a>
 								<a href="mailto:saddatumbi@gmail.com ">
-									<b><p style="color: #80a093;">saddatumbi@gmail.com </p></b>
+									<b>
+										<p style="color: #80a093;">saddatumbi@gmail.com </p>
+									</b>
 								</a>
 
 							</div>
@@ -1185,7 +1226,7 @@
 									</p>
 								</h5>
 								<hr class="no_line" style="margin:0 auto 15px">
-								
+
 							</div>
 						</aside>
 					</div>
@@ -1224,6 +1265,8 @@
     <script src="assets/js/animations/animations.js"></script>
     <script src="assets/js/translate3d.js"></script>
     <script src="assets/js/scripts.js"></script>
+
+
 
 
 </body>
