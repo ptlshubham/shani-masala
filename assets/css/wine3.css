@@ -1624,10 +1624,16 @@ input[type="date"]:focus, input[type="email"]:focus, input[type="number"]:focus,
 	.header-semi #Top_bar:not(.is-sticky) {
 		background-color: rgba(2, 65, 38, 0.8);
 	}
+	#Top_bar.is-sticky{
+		position: fixed;
+	}
 }
 @media only screen and (max-width: 767px) {
 	#Top_bar {
 		background-color: #024126 !important;
+	}
+	#Top_bar.is-sticky{
+		position: fixed;
 	}
 	#Action_bar {
 		background-color: #FFFFFF !important;
@@ -1750,6 +1756,9 @@ h6 {
 		line-height: 23px;
 		letter-spacing: 0px;
 	}
+	#Top_bar.is-sticky{
+		position: fixed;
+	}
 	.big {
 		font-size: 14px;
 		line-height: 25px;
@@ -1868,6 +1877,9 @@ h6 {
 		line-height: 20px;
 		letter-spacing: 0px;
 	}
+	#Top_bar.is-sticky{
+		position: fixed;
+	}
 	.big {
 		font-size: 13px;
 		line-height: 22px;
@@ -1985,6 +1997,9 @@ h6 {
 		font-size: 13px;
 		line-height: 19px;
 		letter-spacing: 0px;
+	}
+	 #Top_bar.is-sticky{
+		position: fixed;
 	}
 	.big {
 		font-size: 13px;
@@ -2158,7 +2173,7 @@ h6 {
 }
 @media only screen and (max-width: 767px) {
 	#Top_bar a.responsive-menu-toggle {
-		top: 40px;
+		top: 20px;
 	}
 	.mobile-header-mini #Top_bar #logo {
 		height: 50px !important;
